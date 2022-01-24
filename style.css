@@ -18,3 +18,11 @@ body{
 .card:hover .badges{
     visibility: visible;
 }
+#footer1{
+    height: 50px;
+    display: block;
+}
+#footer2{
+    height: 47px;
+    display: block;
+}
