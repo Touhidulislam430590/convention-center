@@ -11,6 +11,38 @@ body{
     background-color: rgba(49, 109, 165, 0.836);
 }
 
+/* .card-body h1, h2, p, ul li{
+    color: black;
+} */
+
+.card:hover ul li{
+    color: white;
+}
+
+.card:hover h1{
+    color: white;
+}
+.card:hover h3{
+    color: white;
+}
+.card:hover p{
+    color: white;
+}
+
+.card:hover .card-footer button{
+    background-color: white;
+}
+.card-body ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.card-body ul li:before {
+    content: '✓  ';
+}
+.card-body ul li{
+    margin: 5px 0;
+}
 .badges{
     visibility: hidden;
 }
