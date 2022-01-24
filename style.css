@@ -6,3 +6,15 @@ body{
 .banner{
     height: 584px;
 }
+
+.card:hover{
+    background-color: rgba(49, 109, 165, 0.836);
+}
+
+.badges{
+    visibility: hidden;
+}
+
+.card:hover .badges{
+    visibility: visible;
+}
